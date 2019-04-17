@@ -21,7 +21,7 @@ STATIC_DIR = os.path.join(BASE_DIR,'static')
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ufj3thv19#o=ojl%saf-_needn#a1aj15@#$w+a0p&g14uchq4'
+SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -154,11 +154,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 LOGIN_URL = 'user_login'
 LOGIN_REDIRECT_URL = 'home'
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='1021220379156-in75oau5egcrc0lckkg88hns7vncgi64.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'dl5xJYaeEeZq5TcGo0WKXA_4'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'XXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'preet378989@gmail.com'
-EMAIL_HOST_PASSWORD = 'zatchbell'
+EMAIL_HOST_USER = 'XXXXXXXXXX'
+EMAIL_HOST_PASSWORD = 'XXXXXXXXX'
 EMAIL_PORT = 587
